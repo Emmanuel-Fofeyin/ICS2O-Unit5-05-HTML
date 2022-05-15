@@ -27,10 +27,6 @@ function convertClicked() {
     document.getElementById("type-of-triangle").innerHTML =
       "The triangle is an equilatoral triangle because all three angles are equa l!"
   }
- else if
-   (angleOne == angleThree) ||
-   (angleTwo == angleThree
- ) {
     document.getElementById("type-of-triangle").innerHTML =
   "The triangle is an isosceles triangle because two angles are equal !"
 }
