@@ -1,4 +1,4 @@
-/* Created by: Mr. Coxall
+/* Created by: Emmanuel Fofeyin
 * Created on: Sep 2020
 * This file contains the CSS for index.html
 */
@@ -10,11 +10,11 @@
 }
 
 body {
-  background-color: cornflowerblue;
+  background-color: lightgrey;
 }
 
 p {
-  color: white;
+  color: black;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
   padding-top: 5pt;
