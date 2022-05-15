@@ -7,12 +7,3 @@
 /**
  * Check servie worker.
  */
-if (navigator.serviceWorker) {
-  navigator.serviceWorker.register("/ICS2O-Unit5-05-HTML/sw.js", {
-    scope: "/ICS2O-Unit5-05-HTML/",
-  })
-}
-
-/**
- * This function gets the users input and converts the value to celsius
- */
