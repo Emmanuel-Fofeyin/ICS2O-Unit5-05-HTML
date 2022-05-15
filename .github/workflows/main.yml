@@ -31,7 +31,7 @@ jobs:
       - name: Check out Git repository
 
         uses: actions/checkout@main
-        
+
 
       - name: Run GitHub Super Linter
 
