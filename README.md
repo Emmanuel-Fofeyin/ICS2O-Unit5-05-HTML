@@ -1,4 +1,4 @@
-# ICS2O-Unit-5-04-HTML
+# ICS2O-Unit5-05-HTML
 
 [![Mr Coxall's Super Linter](https://github.com/Emmanuel-Fofeyin/ICS2O-Unit5-05-HTML/actions/workflows/main.yml/badge.svg)](https://github.com/Emmanuel-Fofeyin/ICS2O-Unit5-05-HTML/actions/workflows/main.yml)
 
