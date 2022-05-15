@@ -16,22 +16,3 @@ if (navigator.serviceWorker) {
 /**
  * This function gets the users input and converts the value to celsius
  */
-function convertClicked() {
-  //input
-  const angleOne = parseInt(document.getElementById("angle-one").value)
-  const angleTwo = parseInt(document.getElementById("angle-two").value)
-  const angleThree = parseInt(document.getElementById("angle-three").value)
-
-  //process
-  if (angleOne == angleTwo && angleTwo == angleThree) {
-    document.getElementById("type-of-triangle").innerHTML =
-      "The triangle is an equilatoral triangle because all three angles are equa l!"
-  }
-    document.getElementById("type-of-triangle").innerHTML =
-  "The triangle is an isosceles triangle because two angles are equal !"
-}
-  else {
-    document.getElementById("type-of-triangle").innerHTML =
-  "The triangle is a scalene triangle becuase  no angles are equal !"
-  }
-}
