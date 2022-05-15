@@ -27,8 +27,7 @@ function convertClicked() {
     document.getElementById("type-of-triangle").innerHTML =
       "The triangle is an equilatoral triangle because all three angles are equa l!"
   }
- else if (    
-   angleOne == angleTwo) ||("3x4")
+ else if
    (angleOne == angleThree) ||
    (angleTwo == angleThree
  ) {
