@@ -24,15 +24,15 @@ function convertClicked() {
 
   //process
   if (angleOne == angleTwo && angleTwo == angleThree) {
-    document.getElementById("type-of-triangle").innerHTML = 
+    document.getElementById("type-of-triangle").innerHTML =
       "The triangle is an equilatoral triangle because all three angles are equa l!"
   }
   else if ((angleOne == angleTwo) || (angleOne == angleThree) || (angleTwo == angleThree)){
-     document.getElementById("type-of-triangle").innerHTML = 
+     document.getElementById("type-of-triangle").innerHTML =
     "The triangle is an isosceles triangle because two angles are equal !"
   }
   else {
-     document.getElementById("type-of-triangle").innerHTML = 
+     document.getElementById("type-of-triangle").innerHTML =
     "The triangle is a scalene triangle becuase  no angles are equal !"
   }
 }
