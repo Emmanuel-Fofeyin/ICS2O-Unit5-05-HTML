@@ -25,7 +25,7 @@ function convertClicked() {
   //process
   if (angleOne == angleTwo && angleTwo == angleThree) {
     document.getElementById("type-of-triangle").innerHTML =
-      "The triangle is an equilatral triangle because all three angles are equal !"
+      "The triangle is an equilateral triangle because all three angles are equal !"
   }
   else if ((angleOne == angleTwo) || (angleOne == angleThree) || (angleTwo == angleThree)){
      document.getElementById("type-of-triangle").innerHTML =
@@ -33,6 +33,6 @@ function convertClicked() {
   }
   else {
      document.getElementById("type-of-triangle").innerHTML =
-    "The triangle is a scalene triangle becuase  no angles are equal !"
+    "The triangle is a scalene triangle because  no angles are equal !"
   }
 }
