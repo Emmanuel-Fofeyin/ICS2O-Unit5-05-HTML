@@ -18,21 +18,21 @@ if (navigator.serviceWorker) {
  */
 function convertClicked() {
   //input
-  const angleOne = parseInt(document.getElementById("angle-one").value)
-  const angleTwo = parseInt(document.getElementById("angle-two").value)
-  const angleThree = parseInt(document.getElementById("angle-three").value)
+  const lengthOne = parseInt(document.getElementById("length-one").value)
+  const lengthTwo = parseInt(document.getElementById("length-two").value)
+  const lengthThree = parseInt(document.getElementById("length-three").value)
 
   //process
-  if (angleOne == angleTwo && angleTwo == angleThree) {
+  if (lengthOne == lengthTwo && lengthTwo == lengthThree) {
     document.getElementById("type-of-triangle").innerHTML =
       "The triangle is an equilateral triangle because all three angles are equal !"
   }
-  else if ((angleOne == angleTwo) || (angleOne == angleThree) || (angleTwo == angleThree)){
+  else if ((lengthOne == lengthTwo) || (lengthOne == lengthThree) || (lengthTwo == lengthThree)){
      document.getElementById("type-of-triangle").innerHTML =
     "The triangle is an isosceles triangle because two angles are equal !"
   }
   else {
      document.getElementById("type-of-triangle").innerHTML =
-    "The triangle is a scalene triangle because  no angles are equal !"
+    "The triangle is a scalene triangle because  no lengths are equal !"
   }
 }
