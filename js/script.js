@@ -4,6 +4,8 @@
 // Created on: April 2022
 // This file contains the JS functions for index.html
 
+"use script"
+
 /**
  * Check servie worker.
  */
