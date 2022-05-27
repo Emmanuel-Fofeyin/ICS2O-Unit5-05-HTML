@@ -24,19 +24,19 @@ function convertClicked() {
 
   //process
   if ((lengthOne <= 0) || (lengthTwo <= 0) || (lengthThree <= 0)) {
-    document.getElementById("type-of-triangle").innerHTML = 
+    document.getElementById("type-of-triangle").innerHTML =
       "You cannot input negative numbers !"
   }
   else if (lengthOne == lengthTwo && lengthTwo == lengthThree) {
-    document.getElementById("type-of-triangle").innerHTML = 
+    document.getElementById("type-of-triangle").innerHTML =
       "The triangle is an equilateral  triangle because all three lengths are equal !"
   }
   else if ((lengthOne == lengthTwo) || (lengthOne == lengthThree) || (lengthTwo == lengthThree)){
-     document.getElementById("type-of-triangle").innerHTML = 
+     document.getElementById("type-of-triangle").innerHTML =
     "The triangle is an isosceles triangle because two lengths are equal !"
   }
   else {
-     document.getElementById("type-of-triangle").innerHTML = 
+     document.getElementById("type-of-triangle").innerHTML =
     "The triangle is a scalene triangle becuase  no lengths are equal !"
   }
 }
