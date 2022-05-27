@@ -29,7 +29,7 @@ function convertClicked() {
   }
   else if (lengthOne == lengthTwo && lengthTwo == lengthThree) {
     document.getElementById("type-of-triangle").innerHTML = 
-      "The triangle is an equilatoral triangle because all three lengths are equal !"
+      "The triangle is an equilateral  triangle because all three lengths are equal !"
   }
   else if ((lengthOne == lengthTwo) || (lengthOne == lengthThree) || (lengthTwo == lengthThree)){
      document.getElementById("type-of-triangle").innerHTML = 
