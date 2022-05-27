@@ -1,10 +1,8 @@
-// Copyright (c) 2022 Emmanuel Fofeyin All rights reserved
+// Copyright (c) 2022 Emmanuel-Fofeyin All rights reserved
 //
-// Created by: Emmanuel.Fofeyin
+// Created by: Emmanuel-Fofeyin
 // Created on: April 2022
 // This file contains the JS functions for index.html
-
-"use script"
 
 /**
  * Check servie worker.
@@ -25,16 +23,20 @@ function convertClicked() {
   const lengthThree = parseInt(document.getElementById("length-three").value)
 
   //process
-  if (lengthOne == lengthTwo && lengthTwo == lengthThree) {
-    document.getElementById("type-of-triangle").innerHTML =
-      "The triangle is an equilateral triangle because all three angles are equal !"
+  if ((lengthOne <= 0) || (lengthTwo <= 0) || (lengthThree <= 0)) {
+    document.getElementById("type-of-triangle").innerHTML = 
+      "You cannot input negative numbers !"
+  }
+  else if (lengthOne == lengthTwo && lengthTwo == lengthThree) {
+    document.getElementById("type-of-triangle").innerHTML = 
+      "The triangle is an equilatoral triangle because all three lengths are equal !"
   }
   else if ((lengthOne == lengthTwo) || (lengthOne == lengthThree) || (lengthTwo == lengthThree)){
-     document.getElementById("type-of-triangle").innerHTML =
-    "The triangle is an isosceles triangle because two angles are equal !"
+     document.getElementById("type-of-triangle").innerHTML = 
+    "The triangle is an isosceles triangle because two lengths are equal !"
   }
   else {
-     document.getElementById("type-of-triangle").innerHTML =
-    "The triangle is a scalene triangle because  no lengths are equal !"
+     document.getElementById("type-of-triangle").innerHTML = 
+    "The triangle is a scalene triangle becuase  no lengths are equal !"
   }
 }
